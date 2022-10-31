@@ -1,4 +1,4 @@
-local REP = "https://raw.githubusercontent.com/Codermsk/CasMcSK/master"
+local REP = "https://raw.githubusercontent.com/Codermsk/CasMcSkill/master"
 
 local shell = require("shell")
 shell.execute("wget -fq " .. REP .. "/launcher.lua /home/1.lua")
