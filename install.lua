@@ -1,4 +1,4 @@
-local REPOSITOTY = "https://github.com/Codermsk/CasMcSK/tree/master/CasMSmaster"
+local REPOSITOTY = "https://raw.githubusercontent.com/Codermsk/CasMcSK/master"
 
 local shell = require("shell")
 shell.execute("wget -fq " .. REPOSITOTY .. "/launcher.lua /home/1.lua")
