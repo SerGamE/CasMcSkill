@@ -109,8 +109,6 @@ while run do
         admins[ind][6] = "false"
       end
     end
-    gpu.set(57,line,disp_time(current_time-admins[ind][5]))
-    line = line + 1
   end
   local e = ({event.pull(5,"key_down")})[4]
   if e == 29 or e == 157 then -- Ctrl Выход
