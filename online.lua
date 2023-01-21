@@ -9,6 +9,7 @@ local admins = {
   {"Помощник","Keengit","0x00FF00","0x00FF00","0","false"},
   {"Помощник","Dipressiv","0x00FF00","0x00FF00","0","false"},
   {"Хозяин","Ser6amE","0xFF0000","0xFF0000","0","false"}
+  {"Хозяин","CoderMS","0xFF0000","0xFF0000","0","false"}
 }
  
 local com = require("component")
