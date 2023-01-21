@@ -97,18 +97,11 @@ while run do
       computer.removeUser(admins[ind][2])
       gpu.setForeground(0x00FF00)
       gpu.set(47,line,"online ")
-      if admins[ind][6] == "false" then
-        admins[ind][5] = current_time
-        admins[ind][6] = "true"
-      end
     else
       gpu.setForeground(0x2D2D2D)
       gpu.set(47,line,"offline")
-      if admins[ind][6] == "true" then
-        admins[ind][5] = current_time
-        admins[ind][6] = "false"
-      end
     end
+     line = line + 1
   end
   local e = ({event.pull(5,"key_down")})[4]
   if e == 29 or e == 157 then -- Ctrl Выход
