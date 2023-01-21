@@ -27,20 +27,6 @@ local function get_time()
   return tonumber(string.sub(fs.lastModified('/tmp/clock.dt'), 1, -4)) + time_correction * 3600
 end
  
-local function disp_time(t)
-  local days = (t / 86400)
-  local hrs = (t % 86400) / 3600
-  local mins = ((t % 86400) % 3600) / 60
-  local sec = (t % 3600) % 60
-  if days >= 1 then
-    return string.format("%d дн. %02d ч.   ",days,hrs)
-  elseif hrs >= 1 then
-    return string.format("%02d ч. %02d мин.   ",hrs,mins)
-  else
-    return string.format("%02d мин. %02d сек.   ",mins,sec)
-  end
-end
- 
 local function save()
   local f = io.open("/home/tbl", "w")  
   f:write("List = {")
