@@ -18,7 +18,7 @@ local unicode = require("unicode")
 local fs = require('filesystem')
 local event = require("event")
 local gpu = com.gpu
-local run = true
+--local run = true
  
 local w, h = 80, 25
 local w2 = w / 2
@@ -117,6 +117,6 @@ while run do
   end
 end
  
-if run then
-  computer.shutdown(false)
-end
+--if run then
+--  computer.shutdown(false)
+--end
