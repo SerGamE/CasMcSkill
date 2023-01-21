@@ -8,8 +8,8 @@ local admins = {
   {"Модератор","Dv1Corn","0xFF55FF","0xFF9200","0","false"},
   {"Помощник","Keengit","0x00FF00","0x00FF00","0","false"},
   {"Помощник","Dipressiv","0x00FF00","0x00FF00","0","false"},
-  {"Хозяин","Ser6amE","0xFF0000","0xFF0000","0","false"}
-  {"Хозяин","CoderMS","0xFF0000","0xFF0000","0","false"}
+  {"Хозяин","Ser6amE","0xFF0000","0xFF0000","0","false"},
+  {"Хозяин","CoderMS","0xFF0000","0xFF0000","0","false"},
 }
  
 local com = require("component")
