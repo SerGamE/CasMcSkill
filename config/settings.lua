@@ -8,6 +8,7 @@ settings.ADMINS = { "CoderMS" }
 -- PIM - Взаимодействие PIM и МЕ сети
 -- CRYSTAL - Взаимодействие кристального сундука и алмазного сундука
 -- DEV - Оплата не взимается, награда не выдается, не требует внешних компонентов
+-- TRAN - транспозер метод
 settings.PAYMENT_METHOD = "DEV"
 settings.CONTAINER_PAY = "DOWN"
 settings.CONTAINER_GAIN = "UP"
